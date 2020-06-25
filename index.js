@@ -4,11 +4,11 @@ const app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('I like Test07!');
+    res.send('I like Test07!!!!');
 });
 
 app.get('/start', function(req, res){
-    res.send('start page!');
+    res.send('start page!!!!');
 });
 
 server.listen(3000, '127.0.0.1', function(){
